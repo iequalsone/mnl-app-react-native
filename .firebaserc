@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "mnl-notifications": "mnl-notifications",
+    "default": "mnl-notifications"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "expo": {
+    "name": "MusicNL: Latest Events",
+    "icon": "./assets/mnl-icon.png",
+    "version": "1.2.2",
+    "slug": "musicnl",
+    "sdkVersion": "28.0.0",
+    "ios": {
+      "bundleIdentifier": "events.musicnl.ca"
+    },
+    "android": {
+      "versionCode": 7,
+      "package": "events.musicnl.ca",
+      "googleServicesFile": "./google-services.json",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "READ_CALENDAR",
+        "WRITE_CALENDAR",
+        "READ_PHONE_STATE",
+        "com.anddoes.launcher.permission.UPDATE_COUNT",
+        "com.android.launcher.permission.INSTALL_SHORTCUT",
+        "com.htc.launcher.permission.UPDATE_SHORTCUT",
+        "com.majeur.launcher.permission.UPDATE_BADGE",
+        "com.sec.android.provider.badge.permission.READ",
+        "com.sec.android.provider.badge.permission.WRITE",
+        "com.sonyericsson.home.permission.BROADCAST_BADGE"
+      ]
+    },
+    "loading": {
+      "hideExponentText": true,
+      "backgroundImage": "./assets/splash-bg.png"
+    },
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "packagerOpts": {
+      "assetExts": [
+        "ttf"
+      ]
+    },
+    "androidStatusBarColor": "#334393",
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#334393"
+    }
+  }
+}
